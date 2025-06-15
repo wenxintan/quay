@@ -1,8 +1,8 @@
 module github.com/quay/quay/config-tool
 
-go 1.23.0
+go 1.24
 
-toolchain go1.23.10
+toolchain go1.24.4
 
 require (
 	cuelang.org/go v0.6.0
@@ -35,7 +35,7 @@ require (
 
 require (
 	github.com/coreos/go-oidc/v3 v3.11.0
-	github.com/go-jose/go-jose/v4 v4.0.2 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.0 // indirect
 )
 
 require (
